@@ -15,8 +15,7 @@ function User() {
 
 
     return (
-        <div className="mt-4">
-            
+    <div className="mt-4">            
             { userData.length > 0 ? (
                 userData.map((item) => <>
                 <span>Id : {item.id}</span> |  
